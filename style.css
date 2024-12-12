@@ -3,12 +3,12 @@ body {
     font-family: 'Georgia', serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #faf3eb; /* Nude background color */
+    color: #5f4b3c; /* Soft brown text */
 }
 
 a {
-    color: #ff7f50;
+    color: #be9b7b; /* Nude link color */
     text-decoration: none;
 }
 a:hover {
@@ -19,7 +19,7 @@ a:hover {
 header {
     position: relative;
     height: 60vh;
-    background: url('wedding-bg.jpg') no-repeat center center/cover;
+    background: url('assets/wedding-bg.jpg') no-repeat center center/cover;
     color: #fff;
     display: flex;
     align-items: center;
@@ -28,19 +28,20 @@ header {
 }
 
 header .overlay {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(95, 75, 60, 0.6); /* Soft brown overlay */
     padding: 20px;
     border-radius: 10px;
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 header p {
     font-size: 1.2rem;
+    margin: 0;
 }
 
 /* Section Styles */
@@ -48,17 +49,17 @@ section {
     margin: 30px auto;
     max-width: 800px;
     padding: 20px;
-    background: #fff;
+    background: #fff; /* White section background */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #details .detail-card {
-    background: #ffecd1;
-    padding: 15px;
+    background: #fbe8d3; /* Nude card background */
+    padding: 20px;
     border-radius: 10px;
     font-size: 1.1rem;
-    color: #7d5a50;
+    color: #5f4b3c;
 }
 
 /* RSVP Form Styles */
@@ -69,14 +70,19 @@ form {
 }
 
 input, select, button {
-    padding: 10px;
+    padding: 12px;
     border-radius: 5px;
     border: 1px solid #ddd;
     font-size: 1rem;
 }
 
+input, select {
+    background-color: #fef8f1; /* Soft nude form field background */
+    color: #5f4b3c;
+}
+
 button {
-    background: #ff7f50;
+    background: #be9b7b; /* Nude button background */
     color: white;
     border: none;
     cursor: pointer;
@@ -84,14 +90,14 @@ button {
 }
 
 button:hover {
-    background: #e56642;
+    background: #a77f60; /* Darker nude on hover */
 }
 
 /* Footer Styles */
 footer {
     text-align: center;
-    padding: 15px;
-    background-color: #7d5a50;
+    padding: 20px;
+    background-color: #5f4b3c; /* Dark brown footer */
     color: #fff;
     font-size: 1rem;
     border-top-left-radius: 10px;
